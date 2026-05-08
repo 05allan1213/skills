@@ -89,6 +89,19 @@ If you notice unrelated problems, mention them separately. Do not fix them silen
 
 When Superpowers skills are available, use them based on task complexity. Do not mechanically run every workflow for tiny changes.
 
+For non-trivial implementation tasks, explicitly state which Superpowers workflow is being used before starting.
+
+Before coding, the agent should say whether it is using one of the following workflows:
+
+- `brainstorming`
+- `writing-plans`
+- `executing-plans`
+- `test-driven-development`
+- `requesting-code-review`
+- `finishing-a-development-branch`
+
+If no Superpowers workflow is used, briefly explain why the task is small enough to proceed directly.
+
 For work projects: any medium-to-large requirement, risky change, or task touching API / config / data structure / deployment **must** be planned before execution.
 
 ### 5.1 Brainstorming
